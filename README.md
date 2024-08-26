@@ -1,4 +1,4 @@
-<h1 align="center">自动图文生成系统</h1>
+<h1 align="center">次元剑（ASwordx64）</h1>
 <p align="center">
   <img src="https://img.shields.io/github/languages/code-size/nanchengcyu/TechMindWave-backend" alt="code size"/>
   <img src="https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen" alt="Spring Boot"/>
