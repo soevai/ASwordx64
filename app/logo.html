@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<script>
+    const path = require('path');
+    const fs = require('fs');
+
+    var ToolsListPath = path.join(__dirname, '..', '..', 'Tools', 'Toolslist.xml');
+    fs.readFile(ToolsListPath, 'utf8', (err, data) => {
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(data, 'text/xml');
+        var tagsElement = xmlDoc.getElementsByTagName('tags')[0];
+
+        if (tagsElement) {
+            var tagsContent = tagsElement.textContent.trim().toLowerCase();
+            if (tagsContent === 'close') {
+                ipcRenderer.send('close-transparent-window');
+                return;
+            }
+        }
+    });
+
+    const video = document.getElementById('video');
+    const { ipcRenderer } = require('electron');
+    ipcRenderer.send('createMainWindow');
+    video.addEventListener('ended', () => {
+        ipcRenderer.send('close-transparent-window');
+    });
+
+</script>
+
+<body>
+    <video id="video" autoplay="true">
+        <source src="./assets/LogoAnimation.webm" type="video/webm">
+    </video>
+    <audio id="audio" autoplay>
+        <source src="./assets/audio/logo.mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>

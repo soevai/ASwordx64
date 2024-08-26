@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+    @Author: 发光的神（VoxShadow）
+    @Date: 2023/08/31 ~ 2024/8/25
+    @Version: 1.0.3
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>次元剑 - 逆向工具箱</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main-Layout.css">
+    <link rel="stylesheet" type="text/css" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="asword-main-view">
+        <div class="asword-topbar-view">
+            <i class="fa fa-eercast"></i>
+            <p class="asword-toptitle-view">次元剑</p>
+            <div id="customCloseButton" class="fa fa-times"></div>
+            <div id="customMinimizeButton" class="fa fa-window-minimize"></div>
+
+            <div class="asword-container-touch-view">
+                <div class="container">
+                    <div class="online"></div>
+
+                    <div class="left-Menu" onmouseover="expandContainer()" onmouseout="collapseContainer()">
+                        <i class="fa fa-home" aria-hidden="true" onmouseover="checkMouseOver('主页')"
+                            onmouseout="resetColor()" onclick="showPage('home')"></i>
+
+                        <i class=" fa fa-cube" aria-hidden="true" onmouseover="checkMouseOver('工具')"
+                            onmouseout="resetColor()" onclick="showPage('tools')"></i>
+
+                        <img src="./assets/image/gpt.png" draggable="false" style="user-select: none;"
+                            class="ChatGPTbutton" onmouseover="checkMouseOver('ChatGPT')" onmouseout="resetColor()"
+                            onclick="showPage('ChatGPT')">
+
+                        <i class="fa fa-tags" aria-hidden="true" onmouseover="checkMouseOver('关于')"
+                            onmouseout="resetColor()" onclick="showPage('about')"></i>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="main-View-line"></div>
+        <div class="main-View-content">
+            <div id="homePage" style="display: block; opacity: 1;">
+                <img class="logo-right" src="./assets/image/Sword-Left.png" draggable="false"
+                    style="user-select: none;">
+
+                <img class="logo-left" src="./assets/image/Sword-Right.png" draggable="false"
+                    style="user-select: none;">
+
+                <img id="center-logo" src="./assets/image/Sword-Center.png" draggable="false"
+                    style="user-select: none;">
+            </div>
+
+            <div id="toolsPage" style="display: none;">
+                <div class="main-View-search">
+                    <input type="search" id="search" placeholder=" Search here ... " oninput="initSearch()"
+                        maxlength="30">
+                </div>
+                <div class="grid-container" id="results">
+                    <!-- Button List -->
+                </div>
+            </div>
+
+            <div id="ChatGPTPage" style="display: none;">
+                <div id="terminal">
+                    <p>Welcome to the ChatGPT 3.5</p>
+                </div>
+                <div id="input-output">
+                    <div id="prompt">&gt;</div>
+                    <input type="text" id="input">
+                </div>
+            </div>
+            <div id="aboutPage" style="display: none;">
+                <div class="center-avatar">
+                    <a id="aHref" href="https://meta.natapp4.cc">
+                        <img src="./assets/image/Avatar.jpg" class="avatar">
+                    </a>
+                    <h1 data-text="VoxShadow">VoxShadow</h1>
+                </div>
+            </div>
+
+            <div class="toolsbar"></div>
+
+        </div>
+
+        <script src="renderer.js"></script>
+        <script src="./scripts/Function.js"></script>
+        <script src="./scripts/ChatGPT.js"></script>
+
+        <script>
+            var cssLink = document.createElement("link");
+            cssLink.href = "./assets/css/main-Logo.css";
+            cssLink.rel = "stylesheet";
+            cssLink.type = "text/css";
+            document.head.appendChild(cssLink);
+        </script>
+
+</body>
+
+</html>

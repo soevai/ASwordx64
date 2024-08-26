@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 30px);
+    margin: 0;
+    overflow: hidden;
+}
+
+#dropArea {
+    width: 150px;
+    padding: 30px 40px;
+    border: 2px dashed #777777;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100px, -50px);
+    filter: opacity(0.8);
+    display: flex;
+    justify-content: center;
+}
+
+#dropArea > img {
+    width: 70px;
+    height: 70px;
+}
+
+
+#editor {
+    width: 100%;
+    height: calc(100vh - 30px);
+    position: fixed;
+    top: 35px;
+    overflow-y: auto;
+}
+
+.run-top-view {
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    background: #282c34;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.ace_scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.ace_scrollbar::-webkit-scrollbar-track {
+    background: #292929;
+}
+
+.ace_scrollbar::-webkit-scrollbar-thumb {
+    background: #2c3f4b;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2c3f4b;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 1px;
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2c3f4b;
+}
+
+input:checked+.slider:before {
+    background-color: rgb(0, 154, 214);
+    transform: translateX(25px);
+}
+
+.Pidinput {
+    width: 70px;
+    height: 22px;
+    padding: 0 0px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: #2f343f;
+    color: #979797;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    font-family: fantasy;
+    margin-left: 10px;
+}
+
+.overlay-image {
+    position: fixed;
+    right: 0px;
+    bottom: -14px;
+    width: 200px;
+    z-index: 2;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+    filter: opacity(0.5);
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+
+.draggable {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 350px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    z-index: 10;
+    display: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.table-container {
+    max-height: 230px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.table-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px; 
+}
+
+.table-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+}
+
+
+.draggable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.draggable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.draggable tr:hover {
+    background-color: #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+#processSearch {
+    width: 94%;
+    height: 10px;
+    margin: 8px auto;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: 2px solid #595959;
+    border-radius: 8px;
+    outline: none;
+}
+
+.window-close-btn {
+    width: 35px;
+    height: 21px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+}
+
+.processbutton {
+    border: none;
+    padding: 5px 10px;
+    color: #c1c1c1;
+    background: #282c34;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    filter: opacity(0.7);
+}
+
+.processbutton:active {
+    background-color: #22262c;
+}
+
+.processbutton > img {
+    width: 25px;
+    filter: brightness(1);
+    pointer-events: none;
+}
+
+.window-title {
+    font-size: 16px;
+}
