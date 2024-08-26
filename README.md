@@ -15,11 +15,10 @@
    <img src="https://meta.natapp4.cc/usr/uploads/2024/06/3818802690.png" alt="ASwordx64"/>
   <hr>
    <img src="https://meta.natapp4.cc/usr/uploads/2024/06/826731562.png" alt="ASwordx64"/>
-  <li><strong>逆向工程工具：</strong> 包括反汇编、调试和动态分析功能，支持多种处理器架构和平台，可深入了解程序内部结构和逻辑。</li>
-  <li><strong>渗透测试工具：</strong> 提供强大的漏洞扫描和渗透测试工具，能够模拟各种攻击方式，发现系统潜在的安全漏洞。</li>
-  <li><strong>用户友好界面：</strong> 设计直观，操作简单。即使是初学者也能快速上手，完成复杂的安全任务。</li>
-  <li><strong>高度可扩展性：</strong> 支持插件和脚本，用户可以根据自己的需求添加额外功能，定制工具箱。</li>
+  <li><strong>逆向工程工具：</strong> 包括反汇编、调试和静态分析工具（IDA Pro、x64dbg、dnspy）</li>
+  <li><strong>渗透测试工具：</strong> 包括抓包工具，与HW漏扫工具（Yakit、Burp suite）</li>
+  <li><strong>用户友好界面：</strong> 直观设计，操作简单，即便是初学者也能快速上手。</li>
 </ul>
-  无论你是网络安全专家还是新手，次元剑（ASwordx64）都能成为你不可或缺的工具箱。
+  无论你是网络安全专家还是新手，拥有自己帅气的工具箱是必不可少的。
   它将帮助你揭示隐藏的安全隐患，提升你的网络安全防护能力。
 </p>
