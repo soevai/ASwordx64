@@ -15,9 +15,9 @@
   
   <p align="center">
     <h3>动态Logo</h3>
-   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/3818802690.png" alt="ASwordx64" width="530" height="auto" />
+   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/3818802690.png" alt="ASwordx64" width="520" height="auto" />
     <h3>工具分类</h3>
-   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/826731562.png" alt="ASwordx64" width="530" height="auto"/>
+   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/826731562.png" alt="ASwordx64" width="520" height="auto"/>
    </p>
   
   <li><strong>逆向工程工具：</strong> 包括反汇编、调试和静态分析工具（IDA Pro、x64dbg、dnspy）</li>
