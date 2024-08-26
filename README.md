@@ -1,5 +1,5 @@
 <h1 align="center">次元剑（ASwordx64）</h1>
-<p align="Le">
+<p align="center">
   <img src="https://img.shields.io/github/languages/code-size/nanchengcyu/TechMindWave-backend" alt="code size"/>
   <img src="https://img.shields.io/github/languages/count/nanchengcyu/TechMindWave-backend" alt="languages"/>
   <img src="https://img.shields.io/badge/Javascript-blue-0" alt="Javascript"/>
@@ -7,9 +7,9 @@
   <img src="https://img.shields.io/badge/Author-VoxShadow-orange" alt="Author" />
 </p>
 <hr>
-![](https://meta.natapp4.cc/usr/uploads/2024/08/4075296637.png)
 
-
+ <img src="https://meta.natapp4.cc/usr/uploads/2024/08/4075296637.png" alt="ASwordx64"/>
+ 
 <p>
   <strong>次元剑（ASwordx64）</strong> 是一款由无名工匠精心打造的前沿工具箱，结合了历史与现代的智慧。作为一款集成了逆向工程和渗透测试功能的利器，它不仅继承了前辈们的精髓，还融合了最新的技术创新。使用次元剑，如同掌握了一把锋利的剑，助力你在网络安全领域披荆斩棘。
 </p>
@@ -32,7 +32,6 @@
   <li>选择需要分析的目标程序或系统，使用内置的工具进行详细分析。</li>
   <li>利用渗透测试功能模拟攻击，评估系统的安全性。</li>
   <li>查看和分析生成的报告，进行必要的调整和修复。</li>
-
 
 <p>
   无论你是网络安全专家还是新手，次元剑（ASwordx64）都能成为你不可或缺的得力助手。它将帮助你揭示隐藏的安全隐患，提升你的网络安全防护能力。
