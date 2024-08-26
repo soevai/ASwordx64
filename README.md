@@ -6,12 +6,11 @@
   <img src="https://img.shields.io/github/last-commit/nanchengcyu/TechMindWave-backend" alt="last commit"/><br>
   <img src="https://img.shields.io/badge/Author-VoxShadow-orange" alt="Author" />
 </p>
-<hr>
 
  <img src="https://meta.natapp4.cc/usr/uploads/2024/08/4075296637.png" alt="ASwordx64"/>
- 
+
 <p>
-  <strong>次元剑（ASwordx64）</strong> 是一款由无名工匠精心打造的前沿工具箱，结合了历史与现代的智慧。作为一款集成了逆向工程和渗透测试功能的利器，它不仅继承了前辈们的精髓，还融合了最新的技术创新。使用次元剑，如同掌握了一把锋利的剑，助力你在网络安全领域披荆斩棘。
+  <strong>次元剑（ASwordx64）</strong> 是由一位无名工匠精心打造的网络安全工具箱，结合了历代前辈与现代创新者的智慧。作为一款集成了逆向工程和渗透测试功能的利器，它不仅继承了前辈们的精髓，还融合了新的技术创新。使用次元剑，如同掌握了一把锋利的剑，助力你在网络安全领域披荆斩棘。
 </p>
 
 <h3>主要功能</h3>
