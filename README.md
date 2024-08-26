@@ -12,9 +12,12 @@
 </p>
 <h3>功能展示</h3>
 <ul>
-   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/3818802690.png" alt="ASwordx64" width="500" height="auto"/>
-  <hr>
-   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/826731562.png" alt="ASwordx64" width="500" height="auto"/>
+  <p align="center">
+   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/3818802690.png" alt="ASwordx64" width="550" height="auto" />
+
+   <img src="https://meta.natapp4.cc/usr/uploads/2024/06/826731562.png" alt="ASwordx64" width="550" height="auto"/>
+
+   </p>
   <li><strong>逆向工程工具：</strong> 包括反汇编、调试和静态分析工具（IDA Pro、x64dbg、dnspy）</li>
   <li><strong>渗透测试工具：</strong> 包括抓包工具，与HW漏扫工具（Yakit、Burp suite）</li>
   <li><strong>用户友好界面：</strong> 直观设计，操作简单，即便是初学者也能快速上手。</li>
