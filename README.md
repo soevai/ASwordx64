@@ -21,7 +21,7 @@
    </p>
   
   <li><strong>逆向工程工具：</strong> 包括反汇编、调试和静态分析工具（IDA Pro、x64dbg、dnspy）</li>
-  <li><strong>渗透测试工具：</strong> 包括抓包工具，与HW漏扫工具（Yakit、Burp suite）</li>
+  <li><strong>渗透测试工具：</strong> 包括抓包工具（Yakit、Burp suite），与HW漏扫工具</li>
   <li><strong>用户友好界面：</strong> 直观设计，操作简单，即便是初学者也能快速上手。</li>
 </ul>
   无论你是网络安全专家还是新手，拥有自己帅气的工具箱是必不可少的。<br>
