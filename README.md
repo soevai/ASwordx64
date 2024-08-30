@@ -1,4 +1,6 @@
-# 次元剑（ASwordx64）
+<p align="center">
+  <strong>次元剑（ASwordx64）</strong>
+</p>
 
 [![Code Size](https://img.shields.io/github/languages/code-size/nanchengcyu/TechMindWave-backend)](https://github.com/nanchengcyu/TechMindWave-backend)
 [![Languages Count](https://img.shields.io/github/languages/count/nanchengcyu/TechMindWave-backend)](https://github.com/nanchengcyu/TechMindWave-backend)
