@@ -1,14 +1,14 @@
+<h1 align="center">次元剑（ASwordx64）</h1>
 <p align="center">
-  <strong>次元剑（ASwordx64）</strong>
+  <img src="https://img.shields.io/github/languages/code-size/nanchengcyu/TechMindWave-backend" alt="code size"/>
+  <img src="https://img.shields.io/github/languages/count/nanchengcyu/TechMindWave-backend" alt="languages"/>
+  <img src="https://img.shields.io/badge/Javascript-blue-0" alt="Javascript"/>
+  <img src="https://img.shields.io/github/last-commit/nanchengcyu/TechMindWave-backend" alt="last commit"/><br>
+  <img src="https://img.shields.io/badge/Author-VoxShadow-orange" alt="Author" />
 </p>
+<img src="https://meta.natapp4.cc/usr/uploads/2024/08/4075296637.png" alt="ASwordx64"/>
+<p>
 
-[![Code Size](https://img.shields.io/github/languages/code-size/nanchengcyu/TechMindWave-backend)](https://github.com/nanchengcyu/TechMindWave-backend)
-[![Languages Count](https://img.shields.io/github/languages/count/nanchengcyu/TechMindWave-backend)](https://github.com/nanchengcyu/TechMindWave-backend)
-[![JavaScript](https://img.shields.io/badge/Javascript-blue-0)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Last Commit](https://img.shields.io/github/last-commit/nanchengcyu/TechMindWave-backend)](https://github.com/nanchengcyu/TechMindWave-backend)
-[![Author](https://img.shields.io/badge/Author-VoxShadow-orange)](https://github.com/VoxShadow)
-
-![ASwordx64](https://meta.natapp4.cc/usr/uploads/2024/08/4075296637.png)
 
 **次元剑（ASwordx64）** 是一款由无名工匠精心打造的网络安全工具箱。它集成了逆向工程和渗透测试功能，融合了传统智慧与现代技术创新。像掌握一把锋利的剑一样，次元剑将助力你在网络安全领域披荆斩棘。
 
