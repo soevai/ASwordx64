@@ -31,7 +31,7 @@ const createTransparentWindow = () => {
         transparent: true,
         skipTaskbar: true,
         webPreferences: commonWebPreferences,
-        alwaysOnTop: false,
+        alwaysOnTop: true,
         fullscreen: true,
     });
     logoWindow.loadFile('logo.html');
@@ -45,7 +45,7 @@ const createMainWindow = () => {
         frame: false,
         resizable: false,
         transparent: true,
-        alwaysOnTop: true,
+        alwaysOnTop: false,
         webPreferences: commonWebPreferences,
     });
     mainWindow.setMinimumSize(480, 320);
@@ -85,7 +85,12 @@ const registerIpcHandlers = () => {
     });
 };
 
+let isToggling = false;
+
 const toggleMainWindowVisibility = () => {
+    if (isToggling) return; 
+    isToggling = true;
+
     if (mainWindow && mainWindow.isVisible()) {
         mainWindow.hide();
     } else if (mainWindow) {
@@ -93,6 +98,10 @@ const toggleMainWindowVisibility = () => {
     } else {
         createMainWindow();
     }
+
+    setTimeout(() => {
+        isToggling = false; 
+    }, 200);
 };
 
 // 所有窗口关闭事件
